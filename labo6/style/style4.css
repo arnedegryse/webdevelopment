@@ -1,7 +1,7 @@
 /* Stijl voor hyperlinks */
 a {
     padding-left: 20px; /* Ruimte laten voor het icoontje */
-    background-image: url('pad-naar-uw-icoonafbeelding.png'); /* Pad naar uw icoonafbeelding */
+    background-image: url('../img/hyperlink.png'); /* Pad naar uw icoonafbeelding */
     background-repeat: no-repeat; /* Voorkom herhaling van de achtergrondafbeelding */
     background-position: left center; /* Plaats de achtergrondafbeelding aan de linkerkant */
     text-decoration: none; /* Verwijder standaard onderstreping van links */
