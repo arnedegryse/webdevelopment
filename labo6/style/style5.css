@@ -1,0 +1,14 @@
+/* Standaard stijl voor de checklist */
+.checklist {
+    list-style: none; /* Verwijder standaard opsommingstekens */
+    padding-left: 0; /* Verwijder de standaard inspringing */
+}
+
+/* Stijl voor aangevinkte items */
+.checklist .checked {
+    background-image: url('vinkje.png'); /* URL naar het vinkje-icoon */
+    background-position: left center; /* Plaats het vinkje links van de tekst */
+    background-repeat: no-repeat; /* Voorkom herhaling van de afbeelding */
+    padding-left: 20px; /* Ruimte tussen het vinkje en de tekst */
+    line-height: 1.5; /* Lijnhoogte voor centreren van het vinkje */
+}

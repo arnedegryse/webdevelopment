@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+
+h1 {
+    font-variant: small-caps;
+    background-color: red;
+}
+
+a:hover {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.stippeltjesrand {
+    border: 1px dotted #333;
+    padding: 10px;
+    margin: 10px;
+}

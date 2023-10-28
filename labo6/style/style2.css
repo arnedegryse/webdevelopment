@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Algemene opmaak */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: #EDF2F4;
+}
+
+h2 {
+    font-size: 40px;
+    color: #EDF2F4;
+}
+
+/* Header */
+header {
+    padding: 30px;
+    background-color: #2B2D42;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 30px;
+    background-color: #2B2D42;
+    margin-top: 10px;
+}
+
+/* Education sectie */
+.education {
+    padding: 30px;
+    background-color: #8D99AE;
+}
+
+/* Links */
+a {
+    color: #EF233C;
+}
+
+/* Grijze tekstkleur in header en footer */
+header, footer {
+    color: #8D99AE;
+}
+
+/* Copyright tekst in footer */
+footer p {
+    color: #8D99AE;
+}

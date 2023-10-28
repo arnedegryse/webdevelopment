@@ -1,0 +1,13 @@
+/* Stijl voor hyperlinks */
+a {
+    padding-left: 20px; /* Ruimte laten voor het icoontje */
+    background-image: url('pad-naar-uw-icoonafbeelding.png'); /* Pad naar uw icoonafbeelding */
+    background-repeat: no-repeat; /* Voorkom herhaling van de achtergrondafbeelding */
+    background-position: left center; /* Plaats de achtergrondafbeelding aan de linkerkant */
+    text-decoration: none; /* Verwijder standaard onderstreping van links */
+}
+
+/* Stijl voor hyperlink-hover */
+a:hover {
+    /* Voeg hier eventuele stijlen toe voor een hover-effect */
+}

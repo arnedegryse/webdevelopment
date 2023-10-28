@@ -1,0 +1,14 @@
+ul {
+    list-style: none; /* Verwijder de standaard opsommingstekens */
+    padding: 0; /* Verwijder standaard padding */
+}
+
+ul li {
+    display: inline-block;
+    width: 150px;
+}
+
+ul li a {
+    color: red;
+    text-decoration: none; /* Verwijder standaard onderstreping van koppelingen */
+}
