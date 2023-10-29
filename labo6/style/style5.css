@@ -1,14 +1,26 @@
-/* Standaard stijl voor de checklist */
 .checklist {
-    list-style: none; /* Verwijder standaard opsommingstekens */
-    padding-left: 0; /* Verwijder de standaard inspringing */
+    list-style: none;
+    padding: 0;
 }
 
-/* Stijl voor aangevinkte items */
-.checklist .checked {
-    background-image: url('../img/checked.png'); /* URL naar het vinkje-icoon */
-    background-position: left center; /* Plaats het vinkje links van de tekst */
-    background-repeat: no-repeat; /* Voorkom herhaling van de afbeelding */
-    padding-left: 20px; /* Ruimte tussen het vinkje en de tekst */
-    line-height: 1.5; /* Lijnhoogte voor centreren van het vinkje */
+.checklist li {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.checklist li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.checklist li.checked::before {
+    content: url('../img/checkediconw.png');
+}
+
+.checklist li::before {
+    content: url('../img/uncheckedicon.png');
 }
