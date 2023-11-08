@@ -1,0 +1,22 @@
+body {
+    background-color: whitesmoke;
+    width: 60%;
+    margin: 0 auto;
+    font-family: Arial;
+}
+header {
+    background-color: lightgrey;
+    padding: 10px 10px 10px 10px;
+}
+section {
+    background-color:lightgrey;
+    padding: 0 0 10px 10px;
+}
+section > h2 {
+    padding: 10px 0 0 0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+section > img {
+    background-size: cover;
+}
