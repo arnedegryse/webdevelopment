@@ -20,3 +20,58 @@ section > h2 {
 section > img {
     background-size: cover;
 }
+
+#vrienden table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+#vrienden {
+    font: normal 12px/150% Geneva, Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 10px solid #A65B1A;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#vrienden table td, #vrienden table th {
+    padding: 7px 4px;
+}
+
+#vrienden table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #A65B1A), color-stop(1, #7F4614));
+    background: -moz-linear-gradient(center top, #A65B1A 5%, #7F4614 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A65B1A', endColorstr='#7F4614');
+    background-color: #A65B1A;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    border-left: 2px solid #BF691E;
+}
+
+#vrienden table thead th:first-child {
+    border: none;
+}
+
+#vrienden table tbody td {
+    color: #7F4614;
+    border-left: 1px solid #D9CFB8;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#vrienden table tbody .alt td {
+    background: #F0E5CC;
+    color: #7F4614;
+}
+
+#vrienden table tbody td:first-child {
+    border-left: none;
+}
+
+#vrienden table tbody tr:last-child td {
+    border-bottom: none;
+}
