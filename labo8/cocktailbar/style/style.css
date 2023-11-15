@@ -1,0 +1,54 @@
+body {
+    font-size: 1.2em;
+    font-family: Verdana, Helvetica, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+body > article {
+    width: 30%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section {
+    width: 70%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #007e7e;
+    font-size: 150%;
+}
+
+h2 {
+    color: #007e7e;
+    font-size: 130%;
+}
+
+.weekly-specials h1 {
+    color: #ff6600; /* Or any color you prefer */
+}
+
+.weekly-specials h2 {
+    color: #993300; /* Or any color you prefer */
+}
+
+footer {
+    font-size: 0.6em; /* Helft van de algemene lettergrootte */
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.weekly-specials a:hover {
+    background-color: #8B4513; /* Brown background on hover */
+}

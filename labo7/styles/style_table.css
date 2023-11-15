@@ -31,6 +31,12 @@ td.prev-month {
     color: #888;
 }
 
+table tr:first-child {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    color: #3366cc;
+}
+
 td:first-child, td:last-child {
     background-color: #add8e6; /* Light Blue */
 }
