@@ -1,0 +1,44 @@
+body{
+    font-size: 1.25em;
+}
+article:nth-child(even) {
+    padding:10px;
+    width: 60%;
+    margin:auto;
+    background-color:lightgrey;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+article:nth-child(even) > h2 {
+    margin:0;
+}
+article:nth-child(even) > p {
+    display: inline-block;
+}
+article:nth-child(even) > p > img {
+    float:right;
+    padding-left:10px;
+    margin-right: 10px;
+}
+
+article:nth-child(odd){
+    padding:10px;
+    width: 60%;
+    margin:auto;
+    background-color:lightgrey;
+    border: 1px solid black;
+    margin-top: 10px;
+
+}
+article:nth-child(odd) > h2{
+    margin:0;
+
+}
+article:nth-child(odd) > p {
+    display: inline-block;
+}
+article:nth-child(odd) > p > img {
+    float:left;
+    padding-left:10px;
+    margin-right: 10px;
+}
