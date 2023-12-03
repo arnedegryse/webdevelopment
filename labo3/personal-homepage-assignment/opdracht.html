@@ -1,177 +1,128 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+    EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<header>
-<h1>Arne Degryse</h1>
-</header>
-<section>
-<h2>Personal Information</h2>
-<div>
-    <div>
-        <p><strong>Full Name:</strong> Arne Degryse</p>
-        <p><strong>Address:</strong> Brugsesteenweg 290</p>
-        <p><strong>Phone Number:</strong> 0495/10.54.06</p>
-        <p><strong>Email Address:</strong> arne@onlinedevelopment.be</p>
+<div class="container">
+    <header class="bg-light p-3">
+        <h1>Arne Degryse</h1>
+    </header>
+    <div class="row mt-3">
+        <div class="col-md-4 mb-4">
+            <section class="bg-light p-3">
+                <h2 class="mb-3">Personal Information</h2>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <p><strong>Full Name:</strong> Arne Degryse</p>
+                        <p><strong>Address:</strong> Brugsesteenweg 290</p>
+                        <p><strong>Phone Number:</strong> 0495/10.54.06</p>
+                        <p><strong>Email Address:</strong> arne@onlinedevelopment.be</p>
+                    </div>
+                    <div>
+                        <img src="images/profile.jpg" alt="Arne foto" class="img-fluid">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="col-md-4">
+            <section class="bg-light p-3">
+                <h2 class="mb-3">Hobbies</h2>
+                <div class="hobby mb-4">
+                    <p><strong>Hobby 1:</strong> fietsen</p>
+                    <p>Waar kan ik fietsen?</p>
+                    <ul>
+                        <li>Op de weg</li>
+                        <li>In het bos</li>
+                        <li>Aan de zee</li>
+                        <li>Op de dijk</li>
+                        <li>...</li>
+                    </ul>
+                    <p><a href="https://fiets.be/" class="btn btn-secondary">Lees meer...</a></p>
+                </div>
+                <!-- Repeat for other hobbies -->
+            </section>
+        </div>
+        <div class="col-md-4">
+            <section class="bg-light p-3">
+                <h2 class="mb-3">Likes</h2>
+                <div class="like mb-4">
+                    <p><strong>Favorite Band:</strong> Coldplay</p>
+                    <img src="images/band.jpg" alt="coldplay band" class="img-fluid">
+                    <p><a href="https://www.coldplay.com/" class="btn btn-secondary">Visit Website</a></p>
+                </div>
+                <!-- Repeat for other likes -->
+            </section>
+        </div>
     </div>
-    <div>
-        <img src="images/profile.jpg" alt="Arne foto">
+    <div class="row">
+        <section id="prognose-tabel" class="col-md-12 mb-4">
+            <h2>Prognose Tabel</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>FoP</th>
+                        <th>WebDev</th>
+                        <th>Comp Netw</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Jij</td>
+                        <td>16</td>
+                        <td>14</td>
+                        <td>14</td>
+                    </tr>
+                    <!-- Repeat for other students -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </div>
-</div>
-</section>
 
-<section>
-<h2>Hobbies</h2>
-<div class="hobby">
-    <p><strong>Hobby 1:</strong> fietsen</p>
-    <p>Waar kan ik fietsen?</p>
-    <ul>
-        <li>Op de weg</li>
-        <li>In het bos</li>
-        <li>Aan de zee</li>
-        <li>Op de dijk</li>
-        <li>...</li>
-    </ul>
-    <p><a href="https://fiets.be/">Lees meer...</a></p>
-</div>
-<div class="hobby">
-    <p><strong>Hobby 2:</strong> programeren</p>
-    <p>Websites maken en ontwikkelen</p>
-    <p><a href="https://onlinedevelopment.be/">Lees meer...</a></p>
-</div>
-<div class="hobby">
-    <p><strong>Hobby 3:</strong> eten</p>
-    <p>Top 3 favo gerechten:</p>
-    <ol>
-        <li>Pizza</li>
-        <li>Spahetti</li>
-        <li>Frietjes</li>
-    </ol>
-    <p><a href="https://parkrodenbach.be/">Lees meer...</a></p>
-</div>
-</section>
+    <div class="row">
+        <section id="vrienden" class="col-md-12">
+            <h2>Vrienden</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Voornaam</th>
+                        <th>Familienaam</th>
+                        <th>Geboortejaar</th>
+                        <th>Postcode</th>
+                        <th>Stad</th>
+                        <th>Geslacht</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>1990</td>
+                        <td>9010</td>
+                        <td>Stad1</td>
+                        <td>M</td>
+                    </tr>
+                    <!-- Repeat for other friends -->
+                    </tbody>
+                </table>
+            </div>
+            <p>Niet alle properties die door de generator worden verstrekt, zijn altijd nodig. Afhankelijk van je ontwerp en doelen kun je bepaalde eigenschappen aanpassen of weglaten. <br> <br>Browser prefixes worden vaak gebruikt om ervoor te zorgen dat bepaalde CSS-eigenschappen correct worden weergegeven in oudere browsers. Moderne browsers hebben de neiging om de niet-geprefixte versie van eigenschappen te ondersteunen, maar het hangt af van de specifieke eigenschap en je doelgroep. In sommige gevallen kunnen de prefixes nog steeds nodig zijn voor bredere ondersteuning.</p>
+        </section>
+    </div>
 
-<section>
-<h2>Likes</h2>
-<div class="like">
-    <p><strong>Favorite Band:</strong> Coldplay</p>
-    <img src="images/band.jpg" alt="coldplay band">
-    <p><a href="https://www.coldplay.com/">Visit Website</a></p>
+    <!-- ... Closing tags ... -->
 </div>
-<div class="like">
-    <p><strong>Favorite Movie:</strong> James bond</p>
-    <img src="images/movie.jpg" alt="James Bond">
-    <p><a href="https://nl.wikipedia.org/wiki/James_Bond_(personage)">Visit Website</a></p>
-</div>
-<div class="like">
-    <p><strong>Favorite Music:</strong> soul  &  r&b</p>
-    <img src="images/music.jpg" alt="soul & r&b">
-    <p><a href="https://nl.wikipedia.org/wiki/Rhythm-and-blues">Explore More</a></p>
-</div>
-</section>
-
-<section id="prognose-tabel">
-    <h2>Prognose Tabel</h2>
-    <table style="width:70%" border="3">
-        <thead>
-        <tr>
-            <th>Student</th>
-            <th>FoP</th>
-            <th>WebDev</th>
-            <th>Comp Netw</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Jij</td>
-            <td>16</td>
-            <td>14</td>
-            <td>14</td>
-        </tr>
-        <tr>
-            <td>Medestudent 1</td>
-            <td>10</td>
-            <td>11</td>
-            <td>12</td>
-        </tr>
-        <tr>
-            <td>Medestudent 2</td>
-            <td>9</td>
-            <td>5</td>
-            <td>15</td>
-        </tr>
-        <tr>
-            <td>Medestudent 3</td>
-            <td>11</td>
-            <td>12</td>
-            <td>19</td>
-        </tr>
-        </tbody>
-    </table>
-</section>
-<section id="vrienden">
-    <h2>Vrienden</h2>
-        <table>
-            <thead>
-            <tr>
-                <th>Voornaam</th>
-                <th>Familienaam</th>
-                <th>Geboortejaar</th>
-                <th>Postcode</th>
-                <th>Stad</th>
-                <th>Geslacht</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>John</td>
-                <td>Doe</td>
-                <td>1990</td>
-                <td>9010</td>
-                <td>Stad1</td>
-                <td>M</td>
-            </tr>
-            <tr class="alt">
-                <td>Jane</td>
-                <td>Smith</td>
-                <td>1985</td>
-                <td>8800</td>
-                <td>Stad2</td>
-                <td>V</td>
-            </tr>
-            <tr>
-                <td>Mike</td>
-                <td>Johnson</td>
-                <td>1992</td>
-                <td>8840</td>
-                <td>Stad3</td>
-                <td>M</td>
-            </tr>
-            <tr class="alt">
-                <td>Alice</td>
-                <td>Williams</td>
-                <td>1988</td>
-                <td>8890</td>
-                <td>Stad4</td>
-                <td>V</td>
-            </tr>
-            <tr>
-                <td>Chris</td>
-                <td>Miller</td>
-                <td>1995</td>
-                <td>8800</td>
-                <td>Stad5</td>
-                <td>M</td>
-            </tr>
-            </tbody>
-        </table>
-    <p>Niet alle properties die door de generator worden verstrekt, zijn altijd nodig. Afhankelijk van je ontwerp en doelen kun je bepaalde eigenschappen aanpassen of weglaten.
-       <br> <br>Browser prefixes worden vaak gebruikt om ervoor te zorgen dat bepaalde CSS-eigenschappen correct worden weergegeven in oudere browsers.  Moderne browsers hebben de neiging om de niet-geprefixte versie van eigenschappen te ondersteunen, maar het hangt af van de specifieke eigenschap en je doelgroep. In sommige gevallen kunnen de prefixes nog steeds nodig zijn voor bredere ondersteuning.</p>
-</section>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-eaQHRgRE5pDUHS+dOd4lxB64/G2XuU5sFfihBEXePau2KKKTmPKL3gJ2siKJo2z" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+
+body {
+	font: 1.2em/1.2 Helvetica, aria, sans-serif;
+	margin: 0 3%;
+}
+figure {
+	background: black;
+	border-radius: 5px;
+	color: red;
+	margin: 0 0 25px 0;
+	padding: 10px;
+	text-align: center;
+
+}
+img {
+	max-width: 100%;
+}
+
+figcaption {
+	font-size: .8em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		background-color:mediumpurple;
+	}
+
+	figure {
+		width: 48%; /* Adjust the width to leave some space between figures */
+		display: inline-block; /* Display figures side by side */
+		box-sizing: border-box; /
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	body {
+		background-color:lightgreen;
+	}
+	figure {
+		width: 30%; /* Adjust the width of the figures */
+		display: inline-block; /* Display figures side by side */
+		margin: 0 1.4% 2%; /* Adjust the margin to leave more space between figures */
+		box-sizing: border-box;/
+	}
+
+}
